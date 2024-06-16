@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 6 CSS</title>
+    </head>
+    <body>
+        <form>
+            <img src="task6.png">
+            <label for="uname">Username</label>
+            <br>
+            <input type="text" placeholder="Enter Username">
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" placeholder="Enter Password">
+            <br>
+            <button class="login">Login</button>
+            <br>
+            <input type="checkbox">Remember Me
+            <div class="bottom">
+                <button id="cancel">Cancel</button>
+                <a href="https:\\www.ethnus.com" id="forgot">Forgot Password?</a>
+            </div>
+        </form>
+    </body>
+
+    <style>
+        form{
+            background-color: rgb(244, 244, 244);
+            width: 500px;
+            height:fit-content;
+            padding-bottom: 10px;
+            margin: auto;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+        .bottom{
+            margin: auto;
+            display: block;
+        }
+        input[type="text"],input[type="password"]{
+            margin-bottom: 10px;
+            width: 98%;
+            height: 20px;
+        }
+        .login{
+            background-color: darkgreen;
+            color:antiquewhite;
+            border:none;
+            width:99%;
+            height:30px;
+            margin-bottom: 20px;
+        }
+        #cancel{
+            float:left;
+            background-color: rgb(255, 114, 19);
+            border-radius: 3px;
+            width: 80px;
+            height: 30px;
+            color: antiquewhite;
+            border:none;
+            margin-top:25px;
+        }
+        #forgot{
+            float:right;
+            margin-top: 30px;;
+        }
+    </style>
+</html>

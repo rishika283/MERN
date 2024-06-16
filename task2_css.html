@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 2 CSS</title>
+    </head>
+    <body>
+        <h3>Horizontal Navigation Bar</h3>
+        <div class="horizontal">
+            <button class="hori"><a href="https://www.ethnus.com" target="_blank">Home</a></button>
+            <button class="hori"><a href="https://www.java.com/en/" target="_blank">Java</a></button>
+            <button class="hori"><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></button>
+            <button class="hori"><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></button>
+            <button class="hori"><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Bootstrap</a></button>
+        </div>
+
+        <h3>Vertical Navigation Bar</h3>
+        <div class="vertical">
+            <button class="vert"><a href="https://www.ethnus.com" target="_blank">Home</a></button>
+            <button class="vert"><a href="https://www.java.com/en/" target="_blank">Java</a></button>
+            <button class="vert"><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></button>
+            <button class="vert"><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></button>
+            <button class="vert"><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Bootstrap</a></button>
+        </div>
+        <style>
+            .horizontal{
+                width: 80%;
+                height: 50px;
+                border: 1px solid black;
+                padding: 10px;
+            }
+            .hori{
+                display: block;
+                float: left;
+                background-color: lightgray;
+                width: 20%;
+                height: 50px;
+                border-left: 1px solid blue;
+                border-top: none;
+                border-bottom: none;
+            }
+            .hori:hover{
+                background-color: darkgray;
+            }
+            .vertical{
+                width: 80px;
+                height: 150px;
+                border: 1px solid black;
+                padding: 10px;
+            }
+            .vert{
+                display: block;
+                background-color: lightblue;
+                width: 80px;
+                height: 20%;
+                border:none;
+            }
+            .vert:hover{
+                background-color: orangered;
+            }
+        </style>
+    </body>
+</html>

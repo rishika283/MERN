@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 5 CSS</title>
+    </head>
+    <body>
+       <div class="main">   
+            <div class="nav">
+                <button id="home-page" class="buttons"><a href="home_page.html" target="_blank">Home Page</a></button>
+                <button id="musings" class="buttons"><a href="musings.html" target="_blank">Musings</a></button>
+                <button id="my-town" class="buttons"><a href="my-town.html" target="_blank">My town</a></button>
+                <button id="links" class="buttons"><a href="links.html" target="_blank">Links</a></button>
+            </div>
+            <div class="text">
+                <h1>My first styled page</h1>
+                <p id="main-text">Welcome to my styled page!</p>
+            </div> 
+       </div>
+
+       <style>
+        .main{
+            background-color: rgb(133, 203, 28);
+            height: 600px;
+            width: 600px;
+            margin: auto;
+        }
+        .nav{
+            display:inline;
+            width: 150px;
+            float: left;
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+        .text{
+            display: inline;
+            width: 300px;
+            float:left;
+            color: rgb(144, 9, 106);
+        }
+        .buttons{
+            width:100%;
+            height: 40px;
+            margin-bottom: 10px;
+            background-color: rgb(236, 236, 236);
+            border-right: 25px solid black;
+            display: block;
+        }
+       </style>
+    </body>
+</html>
